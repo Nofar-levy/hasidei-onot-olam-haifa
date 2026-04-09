@@ -406,8 +406,8 @@ svg {
 }
 
 .marker-name-bg {
-  fill: rgba(255,255,255,0.94);
-  stroke: rgba(0,0,0,0.08);
+  fill: #ffffff;
+  stroke: rgba(0,0,0,0.18);
   stroke-width: 1;
   opacity: 0;
   transition: opacity .15s ease;
@@ -440,20 +440,6 @@ svg {
   padding: 0 16px 16px;
   color: var(--muted);
   font-size: 13px;
-}
-
-.map-side-image-wrap {
-  padding: 0 16px 16px;
-}
-
-.map-side-image {
-  display: block;
-  width: 100%;
-  max-width: 320px;
-  border-radius: 16px;
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-  background: #fff;
 }
 
 .footer-note {
@@ -637,8 +623,7 @@ svg {
       </div>
 
       <div class="hint">טיפ: אפשר לבחור תחנה מהמפה או מהרשימה בצד.</div>
-
-       <div class="footer-note">© כל הזכויות שמורות Nofar Levy</div>
+      <div class="footer-note">© כל הזכויות שמורות Nofar Levy</div>
     </section>
   </main>
 </div>
@@ -744,25 +729,25 @@ image: "https://i.postimg.cc/MTBDgKQj/playground.jpg",
 description: "גן משחקים הצמוד לאזור ילדי הנצח, ומדגיש את רעיון ההמשכיות והחיים."
 },
 { id: "s1", order: 3, mapNumber: 1, title: "זופיה – מרטה אבני", shortName: "זופיה – מרטה אבני", subtitle: "פולין", type: "story", zone: "ring", x: 485, y: 245, label: "1", image: "https://i.postimg.cc/XYvg4gCz/story-01.jpg", description: "זופיה מרטה, אמה אלכסנדרה ואחיה אנטוני ויצ'ורק הסתירו שישה יהודים בעליית גג במשך שנה וחצי במהלך הכיבוש הנאצי." },
-{ id: "s2", order: 4, mapNumber: 2, title: "אנה דוברוקה־ג'זיירסקה", shortName: "אנה דוברוקה", subtitle: "פולין", type: "story", zone: "ring", x: 565, y: 195, label: "2", image: "https://i.postimg.cc/L8sV2V1G/story-02.jpg", description: "תחנת הנצחה לאנה דוברוקה־ג'זיירסקה, שסייעה בהצלת יהודים בתקופת השואה." },
-{ id: "s3", order: 5, mapNumber: 3, title: "פלגיה הוצ'אק־שפרינגר", shortName: "פלגיה הוצ'אק", subtitle: "פולין", type: "story", zone: "ring", x: 655, y: 170, label: "3", image: "https://i.postimg.cc/zGfk8kg6/story-03.jpg", description: "פלגיה הוצ'אק־שפרינגר הסתירה יהודים בביתה בזמן מלחמת העולם השנייה." },
-{ id: "s4", order: 6, mapNumber: 4, title: "אנה הורנונג־טומצ'ק", shortName: "אנה הורנונג", subtitle: "פולין", type: "story", zone: "ring", x: 745, y: 170, label: "4", image: "https://i.postimg.cc/t4gzpz6Q/story-04.jpg", description: "סייעה לבנות זהות בדויה לאם ושני בניה, והציגה עצמה כאם המשפחה." },
+{ id: "s2", order: 4, mapNumber: 2, title: "אנה דוברוקה־ג'זיירסקה", shortName: "אנה דוברוקה־ג'זיירסקה", subtitle: "פולין", type: "story", zone: "ring", x: 565, y: 195, label: "2", image: "https://i.postimg.cc/L8sV2V1G/story-02.jpg", description: "תחנת הנצחה לאנה דוברוקה־ג'זיירסקה, שסייעה בהצלת יהודים בתקופת השואה." },
+{ id: "s3", order: 5, mapNumber: 3, title: "פלגיה הוצ'אק־שפרינגר", shortName: "פלגיה הוצ'אק־שפרינגר", subtitle: "פולין", type: "story", zone: "ring", x: 655, y: 170, label: "3", image: "https://i.postimg.cc/zGfk8kg6/story-03.jpg", description: "פלגיה הוצ'אק־שפרינגר הסתירה יהודים בביתה בזמן מלחמת העולם השנייה." },
+{ id: "s4", order: 6, mapNumber: 4, title: "אנה הורנונג־טומצ'ק", shortName: "אנה הורנונג־טומצ'ק", subtitle: "פולין", type: "story", zone: "ring", x: 745, y: 170, label: "4", image: "https://i.postimg.cc/t4gzpz6Q/story-04.jpg", description: "סייעה לבנות זהות בדויה לאם ושני בניה, והציגה עצמה כאם המשפחה." },
 { id: "s5", order: 7, mapNumber: 5, title: "ראול ולנברג", shortName: "ראול ולנברג", subtitle: "שבדיה", type: "story", zone: "ring", x: 835, y: 195, label: "5", image: "https://i.postimg.cc/P5qMTMDj/story-05.jpg", description: "הדיפלומט השבדי ראול ולנברג פעל להצלת יהודי הונגריה; חי תקופה גם בחיפה." },
 { id: "s6", order: 8, mapNumber: 6, title: "אירנה יקירה-זינטל וברונסליבה זינטל", shortName: "אירנה יקירה-זינטל וברונסליבה זינטל", subtitle: "פולין", type: "story", zone: "ring", x: 905, y: 245, label: "6", image: "https://i.postimg.cc/VkHW6bq2/story-06.jpg", description: "אירנה ואמה ברונסליבה הסתירו 13 יהודים ודאגו להם למזון ולמחסורם." },
-{ id: "s7", order: 9, mapNumber: 7, title: "בלה (ואליה) יקימובה־ליפר", shortName: "בלה יקימובה", subtitle: "אוקראינה", type: "story", zone: "ring", x: 955, y: 320, label: "7", image: "https://i.postimg.cc/dVSj1T2p/story-07.jpg", description: "קשרה את גורלה בגורל בעלה היהודי והסתירה אותו יחד עם יהודים נוספים במשך 19 חודשים." },
+{ id: "s7", order: 9, mapNumber: 7, title: "בלה (ואליה) יקימובה־ליפר", shortName: "בלה (ואליה) יקימובה־ליפר", subtitle: "אוקראינה", type: "story", zone: "ring", x: 955, y: 320, label: "7", image: "https://i.postimg.cc/dVSj1T2p/story-07.jpg", description: "קשרה את גורלה בגורל בעלה היהודי והסתירה אותו יחד עם יהודים נוספים במשך 19 חודשים." },
 { id: "s8", order: 10, mapNumber: 8, title: "הלינה לוגובסקי", shortName: "הלינה לוגובסקי", subtitle: "פולין", type: "story", zone: "ring", x: 980, y: 405, label: "8", image: "https://i.postimg.cc/wjbQvs5Y/story-08.jpg", description: "הלינה ובעלה הסתירו אישה יהודייה ודאגו להעבירה בהמשך למקום מסתור נוסף." },
 { id: "s9", order: 11, mapNumber: 9, title: "ירוסלבה לויצקי", shortName: "ירוסלבה לויצקי", subtitle: "אוקראינה", type: "story", zone: "ring", x: 965, y: 490, label: "9", image: "https://i.postimg.cc/RZbLFn1F/story-09.jpg", description: "הבריחה אוכל ליהודים, הסתירה ילדות יהודיות וסיפקה מזון לעוד יהודים." },
 { id: "s10", order: 12, mapNumber: 10, title: "ויקטור מלניק", shortName: "ויקטור מלניק", subtitle: "אוקראינה", type: "story", zone: "ring", x: 920, y: 565, label: "10", image: "https://i.postimg.cc/VkHW6b9L/story-10.jpg", description: "ויקטור, אמו ואחותו הסתירו יהודים, ציידו אותם בתעודות מזויפות וסייעו בהעברתם." },
-{ id: "s11", order: 13, mapNumber: 11, title: "תמרה מקסימניוק־ברומברג", shortName: "תמרה מקסימניוק", subtitle: "אוקראינה", type: "story", zone: "ring", x: 850, y: 620, label: "11", image: "https://i.postimg.cc/Jzd5nB3z/story-11.jpg", description: "תמרה ואמה סייעו בהברחת מזון, בגדים, דירות מסתור וליווי מתמשך של יהודים." },
-{ id: "s12", order: 14, mapNumber: 12, title: "אליזבתה ניקופוי־סטרול", shortName: "אליזבתה ניקופוי", subtitle: "רומניה", type: "story", zone: "ring", x: 770, y: 655, label: "12", image: "https://i.postimg.cc/HkP9x70n/story-12.jpg", description: "הסתירה יהודים ודאגה למחסורם במשך תקופה ארוכה." },
-{ id: "s13", order: 15, mapNumber: 13, title: "מריה סרבניאק־דיקר", shortName: "מריה סרבניאק", subtitle: "פולין", type: "story", zone: "ring", x: 685, y: 675, label: "13", image: "https://i.postimg.cc/KYkrgvQT/story-13.jpg", description: "הסתירה משפחה יהודית ודאגה למחסורם עד השחרור." },
+{ id: "s11", order: 13, mapNumber: 11, title: "תמרה מקסימניוק־ברומברג", shortName: "תמרה מקסימניוק־ברומברג", subtitle: "אוקראינה", type: "story", zone: "ring", x: 850, y: 620, label: "11", image: "https://i.postimg.cc/Jzd5nB3z/story-11.jpg", description: "תמרה ואמה סייעו בהברחת מזון, בגדים, דירות מסתור וליווי מתמשך של יהודים." },
+{ id: "s12", order: 14, mapNumber: 12, title: "אליזבטה ניקופוי־סטרול", shortName: "אליזבטה ניקופוי־סטרול", subtitle: "רומניה", type: "story", zone: "ring", x: 770, y: 655, label: "12", image: "https://i.postimg.cc/HkP9x70n/story-12.jpg", description: "הסתירה יהודים ודאגה למחסורם במשך תקופה ארוכה." },
+{ id: "s13", order: 15, mapNumber: 13, title: "מריה סרבניאק־דיקר", shortName: "מריה סרבניאק־דיקר", subtitle: "פולין", type: "story", zone: "ring", x: 685, y: 675, label: "13", image: "https://i.postimg.cc/KYkrgvQT/story-13.jpg", description: "הסתירה משפחה יהודית ודאגה למחסורם עד השחרור." },
 { id: "s14", order: 16, mapNumber: 14, title: "ורוניקה פורוצאי", shortName: "ורוניקה פורוצאי", subtitle: "הונגריה", type: "story", zone: "ring", x: 595, y: 655, label: "14", image: "https://i.postimg.cc/25bFB8Ty/story-14.jpg", description: "הצילה אם וילדיה, הבריחה מזון ובגדים ודאגה למחבוא." },
-{ id: "s15", order: 17, mapNumber: 15, title: "ויקטוריה צוקרביץ־אייכברגר", shortName: "ויקטוריה צוקרביץ", subtitle: "פולין", type: "story", zone: "ring", x: 515, y: 620, label: "15", image: "https://i.postimg.cc/jjwQJdvw/story-15.jpg", description: "הסתירה יהודי שנמלט מעירו לאחר תחילת חיסול יהודי העיר." },
-{ id: "s16", order: 18, mapNumber: 16, title: "יוליה קלדי־ראלבובסקה", shortName: "יוליה קלדי", subtitle: "פולין", type: "story", zone: "ring", x: 450, y: 565, label: "16", image: "https://i.postimg.cc/LsYBZ6vg/story-16.jpg", description: "הסתירה נערה יהודייה לאחר שאמה נרצחה, ואף קברה את האם." },
+{ id: "s15", order: 17, mapNumber: 15, title: "ויקטוריה צוקרביץ־אייכברגר", shortName: "ויקטוריה צוקרביץ־אייכברגר", subtitle: "פולין", type: "story", zone: "ring", x: 515, y: 620, label: "15", image: "https://i.postimg.cc/jjwQJdvw/story-15.jpg", description: "הסתירה יהודי שנמלט מעירו לאחר תחילת חיסול יהודי העיר." },
+{ id: "s16", order: 18, mapNumber: 16, title: "יוליה קלדי־ראלבובסקה", shortName: "יוליה קלדי־ראלבובסקה", subtitle: "פולין", type: "story", zone: "ring", x: 450, y: 565, label: "16", image: "https://i.postimg.cc/LsYBZ6vg/story-16.jpg", description: "הסתירה נערה יהודייה לאחר שאמה נרצחה, ואף קברה את האם." },
 { id: "s17", order: 19, mapNumber: 17, title: "יז'י שלאג", shortName: "יז'י שלאג", subtitle: "פולין", type: "story", zone: "ring", x: 410, y: 490, label: "17", image: "https://i.postimg.cc/SK27zNVg/story-17.jpg", description: "סייע ליהודים כלואים בגטו והבריח להם מזון." },
 { id: "s18", order: 20, mapNumber: 18, title: "תחנה משותפת 6+18", shortName: "אירנה יקירה-זינטל וברונסליבה זינטל", subtitle: "פולין", type: "story", zone: "ring", x: 955, y: 245, label: "18", image: "https://i.postimg.cc/VkHW6bq2/story-06.jpg", description: "תחנה זו מוצגת יחד עם תחנה 6 ומנציחה את אירנה יקירה-זינטל וברונסליבה זינטל, שהסתירו 13 יהודים ודאגו להם למזון ולמחסורם." },
-{ id: "s19", order: 21, mapNumber: 19, title: "ג'וזף נסטור סנאדנקו־גרובר", shortName: "ג'וזף נסטור", subtitle: "אוקראינה", type: "story", zone: "ring", x: 420, y: 320, label: "19", image: "https://i.postimg.cc/ZqBFyKjM/story-19.jpg", description: "סייע בהסתרת משפחה יהודית ובדאגה למזון ולצרכים קיומיים." },
-{ id: "s20", order: 22, mapNumber: 20, title: "פרניה דדק־ביילסקי", shortName: "פרניה דדק", subtitle: "אוקראינה", type: "story", zone: "ring", x: 470, y: 245, label: "20", image: "https://i.postimg.cc/GpWPPwSJ/story-20.jpg", description: "הצילה ילדים יהודים ואף העלתה אותם ארצה לאחר המלחמה." },
+{ id: "s19", order: 21, mapNumber: 19, title: "ג'וזף נסטור סנאדנקו־גרובר", shortName: "ג'וזף נסטור סנאדנקו־גרובר", subtitle: "אוקראינה", type: "story", zone: "ring", x: 420, y: 320, label: "19", image: "https://i.postimg.cc/ZqBFyKjM/story-19.jpg", description: "סייע בהסתרת משפחה יהודית ובדאגה למזון ולצרכים קיומיים." },
+{ id: "s20", order: 22, mapNumber: 20, title: "פרניה דדק־ביילסקי", shortName: "פרניה דדק־ביילסקי", subtitle: "אוקראינה", type: "story", zone: "ring", x: 470, y: 245, label: "20", image: "https://i.postimg.cc/GpWPPwSJ/story-20.jpg", description: "הצילה ילדים יהודים ואף העלתה אותם ארצה לאחר המלחמה." },
 { id: "s21", order: 23, mapNumber: 21, title: "יוהנה בודין", shortName: "יוהנה בודין", subtitle: "סלובקיה", type: "story", zone: "ring", x: 565, y: 595, label: "21", image: "https://i.postimg.cc/jjp660kg/story-21.jpg", description: "הצילה משפחה וילד יהודי, וסייעה להם גם במקום מסתור חלופי." },
 { id: "s22", order: 24, mapNumber: 22, title: "ולאדיסלאבה חומס", shortName: "ולאדיסלאבה חומס", subtitle: "פולין", type: "story", zone: "ring", x: 805, y: 595, label: "22", image: "https://i.postimg.cc/8C2ddQnX/story-22.jpg", description: "הבריחה יהודים, דאגה למקומות מסתור וסייעה לילדים יהודים להסתתר." }
 ];
@@ -870,10 +855,15 @@ function renderMarkers() {
     text.setAttribute("x", 0);
     text.setAttribute("y", 1);
     text.textContent = point.mapNumber ?? "";
+    if (!point.mapNumber) {
+      text.textContent = point.label && point.label.length <= 4 ? point.label : "";
+      text.setAttribute("font-size", "10");
+    }
     g.appendChild(text);
 
-    if (point.mapNumber && point.shortName) {
-      const nameWidth = Math.max(110, point.shortName.length * 6.8);
+    const hoverName = point.mapNumber ? point.shortName : point.title;
+    if (hoverName) {
+      const nameWidth = Math.max(110, hoverName.length * 6.8);
 
       const bg = document.createElementNS("http://www.w3.org/2000/svg", "rect");
       bg.setAttribute("class", "marker-name-bg");
@@ -889,7 +879,7 @@ function renderMarkers() {
       name.setAttribute("class", "marker-name");
       name.setAttribute("x", "0");
       name.setAttribute("y", (markerRadius(point) + 31).toString());
-      name.textContent = point.shortName;
+      name.textContent = hoverName;
       g.appendChild(name);
     }
 
@@ -1085,4 +1075,4 @@ document.addEventListener("keydown", (e) => {
 render();
 </script>
 </body>
-</html>0
+</html>
